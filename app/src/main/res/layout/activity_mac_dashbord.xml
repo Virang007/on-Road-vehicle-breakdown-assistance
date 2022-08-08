@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".macDashbord">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/login_bg"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_700"
+            android:layout_height="200dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Mechanic Dashboards"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textAllCaps="true"
+                    android:textColor="#FDFCFB"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="@drawable/user_icon"
+                    android:textSize="20dp"
+                    android:textColor="#E8E9EC"
+                    android:backgroundTint="#FF9100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="ID"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/t1"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/imporat"
+            android:backgroundTint="#05727E"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="125dp">
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Mechanic FullUp Details"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#F4F2F2"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:onClick="veryfy"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:elevation="5dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/dbg"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="Veryfy"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/imporat"
+            android:backgroundTint="#05727E"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="125dp">
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Mechanic Details UpDate"
+                    android:textSize="20dp"
+                    android:textColor="#F4F2F2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:background="@drawable/dbg"
+                    android:orientation="vertical"
+                    android:layout_gravity="right"
+                    android:elevation="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:id="@+id/update"
+                        android:layout_height="wrap_content"
+                        android:text="Update"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/imporat"
+            android:backgroundTint="#05727E"
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="125dp">
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Mechanic Details Delete"
+                    android:textSize="20dp"
+                    android:textColor="#F4F2F2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:background="@drawable/dbg"
+                    android:orientation="vertical"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:elevation="5dp"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:id="@+id/delet"
+                        android:layout_height="wrap_content"
+                        android:text="Delete"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Logout"
+    android:id="@+id/l"
+    android:textColor="#380A9F"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "457850434953",
+    "project_id": "onroad-4e81a",
+    "storage_bucket": "onroad-4e81a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457850434953:android:04c221e628f27c14225d58",
+        "android_client_info": {
+          "package_name": "com.example.onroad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457850434953-7ta3vsv8ee59r7p7r5ho6abtpuj7cm1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlDVcgzO647XrkN9dxfu2c0y8A7hlaryA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457850434953-7ta3vsv8ee59r7p7r5ho6abtpuj7cm1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457850434953:android:1e70749b446052b3225d58",
+        "android_client_info": {
+          "package_name": "com.example.ontheway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457850434953-7ta3vsv8ee59r7p7r5ho6abtpuj7cm1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlDVcgzO647XrkN9dxfu2c0y8A7hlaryA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457850434953-7ta3vsv8ee59r7p7r5ho6abtpuj7cm1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

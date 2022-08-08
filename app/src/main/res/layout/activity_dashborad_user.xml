@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboradUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/login_bg"
+            android:gravity="center"
+            android:backgroundTint="@color/purple_700"
+            android:layout_height="230dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="user Dashboards"
+                    android:textAllCaps="true"
+                    android:textColor="#F6F6F4"
+                    android:textSize="25dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="100dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="@drawable/user_icon"
+                    android:textSize="20dp"
+                    android:backgroundTint="#F1C63A"
+                    android:textColor="#E8E9EC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="ID"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/t1"
+                    android:textColor="#F9F7FB"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/imporat"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical"
+            android:layout_margin="15dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:onClick="wallet"
+                    android:background="@drawable/dbg"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:layout_height="110dp">
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:background="@drawable/wallet"
+                        android:layout_height="70dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="wallet"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:onClick="display"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/dbg"
+                    android:orientation="vertical"
+                    android:layout_height="110dp">
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:background="@drawable/mac"
+                        android:layout_height="70dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:text="Service"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:onClick="fuale"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/dbg"
+                    android:orientation="vertical"
+
+                    android:layout_height="110dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:background="@drawable/fuale"
+                        android:layout_height="70dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="Fuel-services"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/dbg"
+                    android:orientation="vertical"
+                    android:layout_height="110dp">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:onClick="tips"
+                        android:background="@drawable/idea"
+                        android:layout_height="70dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:onClick="tips"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="Help-Tips"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:onClick="tips"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/dbg"
+                    android:orientation="vertical"
+                    android:layout_height="110dp">
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:onClick="about"
+                        android:background="@drawable/about"
+                        android:layout_height="70dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:onClick="about"
+                        android:layout_height="wrap_content"
+                        android:text="About"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/dbg"
+                    android:orientation="vertical"
+                    android:layout_height="110dp">
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:id="@+id/singout"
+                        android:backgroundTint="#9F3A3A"
+                        android:background="@drawable/field_pass"
+                        android:layout_height="70dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="LOGOUT"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
