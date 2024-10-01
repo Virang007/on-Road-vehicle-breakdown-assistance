@@ -14,11 +14,7 @@ Here are some screenshots of the system on small devices:
 
 ### 1. Breakdown Assistance Request Screen
 <img src="https://user-images.githubusercontent.com/104147123/183482124-864bd68b-e260-46ed-8c6f-566169951508.jpg" alt="Breakdown Assistance Request" width="200px">
-
-### 2. Service Provider Details Screen
 <img src="https://user-images.githubusercontent.com/104147123/183482139-ca7ef926-3162-4850-a740-a9c0fc85f451.jpg" alt="Service Provider Details" width="200px">
-
-### 3. Real-Time Location Tracking
 <img src="https://user-images.githubusercontent.com/104147123/183482152-fea425ef-084b-47ba-9892-f35dde7eb477.jpg" alt="Real-Time Location Tracking" width="00px">
 
 ## Technologies Used
